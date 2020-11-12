@@ -27,7 +27,9 @@
   <link rel="stylesheet" href="./assets/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/statexpflat.css">
   <link rel="stylesheet" href="./assets/statexpflat-grid.css">
-
+  <!-- link for chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  
   <style>
     a:lang(ar),
     a:lang(ckb),
@@ -799,6 +801,8 @@
                 <span class="mw-headline" id="Crimes_et_d.C3.A9lits_enregistr.C3.A9s_par_les_services_de_police">Crimes recorded by the police</span>
               </h3>
 
+              <!-- add graphics 1 with chart.js -->
+              <canvas id="myChart" height="400"></canvas>
 
               <table cellspacing="0" cellpadding="0" id="table1">
                 <caption> Table 1: Offences recorded by the police, 2002-12</caption>
@@ -1469,6 +1473,9 @@
                 <span class="mw-headline" id="Homicides">Homicide</span>
               </h4>
 
+              <!-- add graphics 2 with chart.js -->
+              <canvas id="myChart2" height="400"></canvas>
+
               <table cellspacing="0" cellpadding="0" id="table2">
                 <caption>Prison population, average per year, 2007-09 and 2010-12
                   <br> (per 100,000 inhabitants)</caption>
@@ -1542,8 +1549,7 @@
                     <th>
                       <div>11</div>
                     </th>
-                    <td>England and
-                      <br />Wales(UK)</td>
+                    <td>England and Wales(UK)</td>
                     <td>151</td>
                     <td>154</td>
                   </tr>
@@ -2063,7 +2069,6 @@
     <!--END PAGE-->
   </div>
   <script src="index.js"></script>
-
 </body>
 
 </html>
