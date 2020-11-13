@@ -9,6 +9,7 @@ function loadData() {
   let xhr = new XMLHttpRequest();
   // open
   xhr.open('GET', "https://canvasjs.com/services/data/datapoints.php?xstart=1&ystart=10&length=10&type=json", true);
+  // xhr.setRequestHeader('Cache-Control', 'no-store');
 
   xhr.onload = function() {
     if(this.status == 200) {
@@ -73,7 +74,7 @@ function loadData() {
         })
       }
 
-      setTimeout(function(){updateChart()}, 1000);
+      setTimeout(function(){updateChart()}, 2000);
 
     } else if(this.status == 404) {
       console.log('Not found');

@@ -6,6 +6,9 @@
 - duration: `5 days`  
 - author: `Alexandre Plennevaux`  
 
+## link on github
+[Charts complete](https://okozmovskaia.github.io/javascript-data-visualisation/)
+
 ## Objectives
 This consolidation challenge will help you assess your ability to solve a problem inspired from real-life situations using your new javascript muscles involving the following know-hows :
 
